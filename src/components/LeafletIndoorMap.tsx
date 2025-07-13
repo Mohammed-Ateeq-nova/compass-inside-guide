@@ -293,10 +293,6 @@ export const LeafletIndoorMap: React.FC<LeafletIndoorMapProps> = ({ floors, onSa
               onEdited={onEdited}
               onDeleted={onDeleted}
               draw={drawOptions}
-              edit={{
-                edit: selectedTool === 'select' ? {} : false,
-                remove: selectedTool === 'select' ? {} : false
-              }}
             />
           </FeatureGroup>
         </MapContainer>
